@@ -6,6 +6,7 @@ HttpResponse("Hello world") мы отправляем пользователю �
 "Hello world"""
 
 from django.http import HttpResponse
+# from django.shortcuts import render
 
 
 def hello(request):
@@ -14,6 +15,7 @@ def hello(request):
 
 # В данном случае получаем два заголовка "HTTP_HOST" и "HTTP_USER_AGENT" и запрошенный путь.
 def index(request):
+    # return render(request, 'index.html')
     host = request.META['HTTP_HOST'] # получаем адрес сервера
     user_agent = request.META['HTTP_USER_AGENT'] # данные браузера
     path = request.path # получаем запрошенный путь
@@ -21,7 +23,7 @@ def index(request):
     return HttpResponse(f"""
         <p>Host: {host}</p>
         <p>Path: {path}</p>
-        <p>User-Agent: {user_agent}</p>    
+        <p>User-Agent: {user_agent}</p>
     """)
 
 

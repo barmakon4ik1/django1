@@ -15,6 +15,7 @@ from myApp import views
 Преимущество re_path состоит в том, что она позволяет задать адреса URL с 
 помощью регулярных выражений."""
 urlpatterns = [
+    # path('', views.index),
     re_path(r'^hello', views.hello),
     path('', views.index, name='index'),
     re_path(r'^about/contact', views.contact),
