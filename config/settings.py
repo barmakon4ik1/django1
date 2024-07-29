@@ -16,18 +16,17 @@ from environ import Env
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 env = Env()
-Env.read.env(BASE_DIR / '.env')
+Env.read_env(BASE_DIR / '.env')
 
-
-SECRET_KEY = env.str('SECRET_KEY')
-DEBUG = env.bool('DEBUG')
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
-
+# SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-!fh792i90fh^0pn)c@)!z&ao)dk7a%_9tb8c9k7)bj#u$4)kyt'
+# DEBUG = env('DEBUG')
+DEBUG = True
+# ALLOWED_HOSTS = env('ALLOWED_HOSTS')
+ALLOWED_HOSTS = []
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
-
-
 
 
 # Application definition
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myApp',
 ]
 
 MIDDLEWARE = [
@@ -72,11 +72,11 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
-DATABASES = env('DATABASES')
-
+# Database = 'SQLite'
+# if Database == 'SQLite':
+#     DATABASES = env('DATABASES_SQLite')
+# else:
+#     DATABASES = env('DATABASES_MySQL')
 
 
 # Password validation
@@ -101,9 +101,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Berlin'
 
 USE_I18N = True
 
@@ -113,7 +113,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
