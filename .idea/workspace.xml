@@ -4,43 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ddd906-be63-4349-82a1-b23eb1e001cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/django1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/community_pulse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/Praktikum10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/models/questions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/models/responses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/routes/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/routes/questions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/routes/responses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/schemas/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/schemas/qustions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/app/schemas/responses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/instance/memory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/migrations/versions/e32117fe9d65_initial_migration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community_pulse/test.db" beforeDir="false" />
+    <list default="true" id="c4ddd906-be63-4349-82a1-b23eb1e001cb" name="Changes" comment="Project init">
+      <change beforePath="$PROJECT_DIR$/../community-pulse" beforeDir="false" afterPath="$PROJECT_DIR$/../community-pulse" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +15,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jv0l1UXsyq9otTJePLLi92TppH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,10 +52,43 @@
       <option name="presentableId" value="Default" />
       <updated>1722252391511</updated>
       <workItem from="1722252395958" duration="3283000" />
+      <workItem from="1722259363905" duration="304000" />
     </task>
+    <task id="LOCAL-00001" summary="Project init">
+      <option name="closed" value="true" />
+      <created>1722259409485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722259409485</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Project init">
+      <option name="closed" value="true" />
+      <created>1722259466557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722259466557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project init" />
   </component>
 </project>
